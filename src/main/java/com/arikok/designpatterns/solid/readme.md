@@ -9,6 +9,6 @@
 - Interface Segregation Principle
 	- Don't put too much into an interface; split into seperate interfaces
 	- YAGNI - You Ain't Going to Need It
-Depedency Inversion Principle
+- Depedency Inversion Principle
 	- High-level modules should not depend upon low-level ones; use abstractions
 	- High-level modules shouldn't be changed, when low-level modules changed.
