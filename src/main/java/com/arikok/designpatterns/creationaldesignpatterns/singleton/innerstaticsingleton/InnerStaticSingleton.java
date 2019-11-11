@@ -3,13 +3,14 @@ package com.arikok.designpatterns.creationaldesignpatterns.singleton.innerstatic
 //thread safe
 public class InnerStaticSingleton {
 
-    private InnerStaticSingleton(){}
+    private InnerStaticSingleton() {
+    }
 
-    private static class Impl{
+    private static class Impl {
         private static final InnerStaticSingleton INSTANCE = new InnerStaticSingleton();
     }
 
-    public InnerStaticSingleton getInstance(){
+    public InnerStaticSingleton getInstance() {
         return Impl.INSTANCE;
     }
 }

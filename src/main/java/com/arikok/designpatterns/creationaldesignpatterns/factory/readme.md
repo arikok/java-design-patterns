@@ -8,4 +8,3 @@ Factory : A component responsible solely for wholesale (not piecewise like build
 AbstractBaseFactory
     - We can create a interface and group different implementations of related Factories.
     - With AbstractBaseFactory implementation users can list-find different implementation of a Factory with using Reflections etc.
-    - 
