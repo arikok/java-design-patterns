@@ -1,10 +1,6 @@
 package com.arikok.designpatterns.stuctruraldesignpatterns.bridge;
 
-import com.google.inject.AbstractModule;
-import com.google.inject.Guice;
-import com.google.inject.Inject;
-import com.google.inject.Injector;
-
+/*
 interface Renderer {
     void renderCircle(float radius);
 }
@@ -83,4 +79,4 @@ class BridgeDemo {
         instance.resize(2);
         instance.draw();
     }
-}
+}*/
